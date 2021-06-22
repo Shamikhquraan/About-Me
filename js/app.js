@@ -11,13 +11,16 @@ let answer1 = prompt ("Do you believe in ghosts? yes/no").toUpperCase();
 
 switch (answer1){
     case 'yes':
+        break;
         console.log('correct')
         
     case 'no':
+        break;
         console.log('correct')   
         
         
        default:
+        break;
            console.log('wrong answer')
            
 }
@@ -26,13 +29,16 @@ let answer2 = prompt ("Can you make yourself disappear? yes/no").toUpperCase();
 
 switch (answer2){
     case 'yes':
+        break;
         console.log('correct')
         
     case 'no':
+        break;
         console.log('correct')   
         
         
        default:
+        break;
            console.log('wrong answer')
            
 }
