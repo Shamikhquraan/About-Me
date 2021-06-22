@@ -1,11 +1,13 @@
 'use strict';
 
-let name = prompt('Enter your name') ;
+let name = prompt("Enter your name") ;
 
-console.log('Your name is'name)
+console.log(name)
+
+alert("Welcom to aboutme - " + name)
 
 
-let answer1 = prompt ('Do you believe in ghosts? yes/no').toUpperCase();
+let answer1 = prompt ("Do you believe in ghosts? yes/no").toUpperCase();
 
 switch (answer1){
     case 'yes':
