@@ -10,11 +10,11 @@ alert("Welcom to aboutme - " + username)
 let answer1 = prompt ("Do you believe in ghosts? yes/no").toUpperCase();
 
 switch (answer1){
-    case 'yes':
+    case "yes":
         break;
         console.log('correct')
         
-    case 'no':
+    case "no":
         break;
         console.log('correct')   
         
@@ -28,11 +28,11 @@ switch (answer1){
 let answer2 = prompt ("Can you make yourself disappear? yes/no").toUpperCase();
 
 switch (answer2){
-    case 'yes':
+    case "yes":
         break;
         console.log('correct')
         
-    case 'no':
+    case "no":
         break;
         console.log('correct')   
         
