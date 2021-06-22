@@ -1,10 +1,10 @@
 'use strict';
 
-let name = prompt("Enter your name") ;
+let username = prompt("Enter your name") ;
 
-console.log(name)
+console.log(username)
 
-alert("Welcom to aboutme - " + name)
+alert("Welcom to aboutme - " + username)
 
 
 let answer1 = prompt ("Do you believe in ghosts? yes/no").toUpperCase();
