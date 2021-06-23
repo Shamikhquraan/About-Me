@@ -1,2 +1,8 @@
+
+
+ol, ul {
+	list-style: decimal;
+}
+
 p {color: blue;}
 
