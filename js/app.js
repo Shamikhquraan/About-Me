@@ -7,85 +7,94 @@ console.log(username)
 alert("Welcom to aboutme - " + username)
 
 
-let answer1 = prompt ("Do you believe in ghosts? yes/no").toUpperCase();
+
+
+
+let answer1 = prompt ("Can you see Mars from your window? yes/no").toLowerCase();
 
 switch (answer1){
-    case yes:
-        break;
-        console.log('correct')
-        
-    case no:
-        break;
-        console.log('correct')   
-        
-        
-       default:
-        break;
-           console.log('wrong answer')
-           
-}
-
-let answer2 = prompt ("Can you make yourself disappear? yes/no").toUpperCase();
-
-switch (answer2){
-    case yes:
-        break;
-        console.log('correct')
-        
-    case no:
-        break;
-        console.log('correct')   
-        
-        
-       default:
-        break;
-           console.log('wrong answer')
-           
-}
-
-let answer3 = prompt ("Can you see out the back of your head? yes/no").toUpperCase();
-
-switch (answer3){
-    case yes:
-        console.log('correct')
-        
-    case no:
-        console.log('correct')   
-        
-        
-       default:
-           console.log('wrong answer')
-           
-}
-
-let answer4 = prompt ("Were you born in the summer? yes/no").toUpperCase();
-
-switch (answer4){
     case 'yes':
-        console.log('correct')
+         alert("Wrong Answear")
+         console.log('Wrong Answear')
+        break;
         
     case 'no':
-        console.log('correct')   
-        
-        
+        alert("Correct Answear")
+        console.log('Correct Answear') 
+        break;
+          
+         
        default:
-           console.log('wrong answer')
+           alert ("No Answear!")
+        break;
+    
            
 }
 
-let answer5 = prompt ("Do you know how to swim? yes/no").toUpperCase();
+let answer2 = prompt ("Can you make yourself disappear? yes/no").toLocaleLowerCase();
 
-switch (answer5){
-    case 'yes':
-        console.log('correct')
-        break;
-    case 'no':
-        console.log('correct')   
+switch (answer2)
+{
+case 'yes':
+         alert("Wrong Answear")
+         console.log('Wrong Answear')
         break;
         
+    case 'no':
+        alert("Correct Answear")
+        console.log('Correct Answear') 
+        break;
+          
+         
        default:
-           console.log('wrong answer')
-           break; 
+           alert ("No Answear!")
+        break;
 }
+let answer3 = prompt ("Can you see out the back of your head? yes/no").toLowerCase();
+
+switch (answer3)
+{
+    case 'yes':
+             alert("Wrong Answear")
+             console.log('Wrong Answear')
+            break;
+            
+        case 'no':
+            alert("Correct Answear")
+            console.log('Correct Answear') 
+            break;
+              
+             
+           default:
+               alert ("No Answear!")
+            break;
+    }
+
+
+    let answer4 = prompt ("do you like bananas? yes/no").toLowerCase();
+
+switch (answer4)
+{
+    case 'yes':
+             alert("Greetings")
+             console.log('Greetings')
+            break;
+            
+        case 'no':
+            alert("why!")
+            console.log('why!') 
+            break;
+              
+             
+           default:
+               alert ("No Answear!")
+            break;
+    }
+
+
+
+    // Do you know how to swim? yes/no
+
+
 
 
